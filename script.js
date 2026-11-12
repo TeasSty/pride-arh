@@ -1,24 +1,4 @@
 (() => {
-  const header = document.querySelector("[data-header]");
-  const toggle = document.querySelector("[data-nav-toggle]");
-  const mobileNav = document.querySelector("[data-mobile-nav]");
-
-  if (toggle && mobileNav) {
-    const setOpen = (open) => {
-      toggle.setAttribute("aria-expanded", String(open));
-      mobileNav.hidden = !open;
-    };
-
-    toggle.addEventListener("click", () => {
-      const open = toggle.getAttribute("aria-expanded") !== "true";
-      setOpen(open);
-    });
-
-    mobileNav.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => setOpen(false));
-    });
-  }
-
   const reveals = document.querySelectorAll("[data-reveal]");
   if ("IntersectionObserver" in window && reveals.length) {
     const io = new IntersectionObserver(
@@ -48,19 +28,6 @@
         }
       },
       { passive: false }
-    );
-  }
-
-  if (header) {
-    let lastY = window.scrollY;
-    window.addEventListener(
-      "scroll",
-      () => {
-        const y = window.scrollY;
-        header.dataset.scrolled = y > 12 ? "true" : "false";
-        lastY = y;
-      },
-      { passive: true }
     );
   }
 })();
