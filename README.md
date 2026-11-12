@@ -16,4 +16,4 @@ HTML · CSS · небольшой JS. Без сборки — подходит �
 
 ## Источники данных
 
-Контакты, прайс и команда — с [pridebarbershop.tilda.ws](http://pridebarbershop.tilda.ws/) и [2ГИС](https://2gis.ru/arkhangelsk/firm/70000001038842192). Фото в макете — демо-атмосфера (Unsplash); на проде заменить работами из VK / Instagram.
+Контакты, прайс и команда — с [pridebarbershop.tilda.ws](http://pridebarbershop.tilda.ws/) и [2ГИС](https://2gis.ru/arkhangelsk/firm/70000001038842192). Фото — собственные кадры PRIDE из Tilda CDN и VK (`assets/photos/`). Портреты мастеров в ростере — инициалы (подписи к лицам на исходниках не размечены).
