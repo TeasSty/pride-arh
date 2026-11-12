@@ -80,4 +80,5 @@
 ## Archive / restore
 
 - Previous live concept archived at: `archive/v2-ticket-stub-ledger/` (+ `design-concept.prev.md`, `design-concept.v2-ticket-stub-ledger.md`)
-- Root `index.html` / `styles.css` / `script.js` remain v2 until user approves v3 build
+- Root `index.html` / `styles.css` / `script.js` = **v3 live** (filmstrip-process, Concept-ID `2026-11-12-pride-contact-sheet-v3`), approved and built 2026-11-12
+- Stack: static HTML/CSS/JS + GSAP ScrollTrigger (CDN); no Three.js; GitHub Pages from repo root

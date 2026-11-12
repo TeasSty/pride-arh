@@ -1,10 +1,12 @@
 # PRIDE — барбершоп, Архангельск
 
-Концепт-сайт по арт-дирекции **«Северный протокол приятеля»** (`workshop-protocol`).
+Сайт по арт-дирекции **contact-sheet / filmstrip-process** (`Concept-ID: 2026-11-12-pride-contact-sheet-v3`).
+
+Live: [teassty.github.io/pride-arh](https://teassty.github.io/pride-arh/)
 
 ## Локально
 
-Откройте `index.html` в браузере или поднимите статический сервер:
+Откройте `index.html` в браузере или:
 
 ```bash
 npx --yes serve .
@@ -12,8 +14,19 @@ npx --yes serve .
 
 ## Стек
 
-HTML · CSS · небольшой JS. Без сборки — подходит для GitHub Pages.
+HTML · CSS · JS + [GSAP ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) (CDN). Без сборки — GitHub Pages с корня `main`.
 
-## Источники данных
+## Структура
 
-Контакты, прайс и команда — с [pridebarbershop.tilda.ws](http://pridebarbershop.tilda.ws/) и [2ГИС](https://2gis.ru/arkhangelsk/firm/70000001038842192). Фото — собственные кадры PRIDE из Tilda CDN и VK (`assets/photos/`). Портреты мастеров в ростере — инициалы (подписи к лицам на исходниках не размечены).
+1. Hero-кадр (PRIDE + фраза + CTA)
+2. Горизонтальная лента визита (scrub на desktop; вертикальный стек на mobile / reduced-motion)
+3. Работы · мастера · прайс · место · курс
+4. Persistent dock записи
+
+## Архив
+
+v2 ticket-stub-ledger: `archive/v2-ticket-stub-ledger/`
+
+## Источники
+
+Контакты, прайс и команда — с [pridebarbershop.tilda.ws](https://pridebarbershop.tilda.ws/) и [2ГИС](https://2gis.ru/arkhangelsk/firm/70000001038842192). Фото — `assets/photos/*` (без Unsplash).
