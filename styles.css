@@ -732,8 +732,12 @@ button {
     gap: 0;
   }
 
-  .stub {
+  .sheet {
     order: 0;
+  }
+
+  .stub {
+    order: 1;
     position: sticky;
     top: 1.25rem;
     align-self: start;
