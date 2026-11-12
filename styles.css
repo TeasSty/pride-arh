@@ -1,3 +1,4 @@
+/* ticket-stub-ledger v2 — capped protocol/works photos */
 :root {
   --north: #b8c3cd;
   --north-deep: #9eacb8;
@@ -364,6 +365,7 @@ button {
   width: 100%;
   height: var(--photo-cap-sm);
   max-height: var(--photo-cap-sm);
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: center 30%;
 }
@@ -413,6 +415,7 @@ button {
   width: 100%;
   height: var(--photo-cap-sm);
   max-height: var(--photo-cap-sm);
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border: 1px solid rgba(27, 35, 42, 0.1);
 }
